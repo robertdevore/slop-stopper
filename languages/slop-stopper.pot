@@ -1,0 +1,118 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Slop Stopper\n"
+"POT-Creation-Date: 2025-03-13 01:26-0400\n"
+"PO-Revision-Date: 2025-03-13 01:25-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: slop-stopper.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#. Plugin Name of the plugin/theme
+#: slop-stopper.php:80 slop-stopper.php:81 slop-stopper.php:100
+msgid "Slop Stopper"
+msgstr ""
+
+#: slop-stopper.php:100
+msgid "Flagged Posts"
+msgstr ""
+
+#: slop-stopper.php:114
+msgid "Title"
+msgstr ""
+
+#: slop-stopper.php:115
+msgid "Author"
+msgstr ""
+
+#: slop-stopper.php:116
+msgid "Date"
+msgstr ""
+
+#: slop-stopper.php:117
+msgid "Flagged Phrase"
+msgstr ""
+
+#: slop-stopper.php:146
+msgid "No flagged posts found."
+msgstr ""
+
+#: slop-stopper.php:179
+msgid ""
+"Your content contains flagged AI-generated phrases and requires admin "
+"review. Your post has been saved as a draft."
+msgstr ""
+
+#: slop-stopper.php:179
+msgid "Content Review Required"
+msgstr ""
+
+#: slop-stopper.php:194
+msgid ""
+"Your content contains flagged AI-generated phrases and requires admin "
+"review. Post status set to draft."
+msgstr ""
+
+#: slop-stopper.php:206
+msgid "digital landscape"
+msgstr ""
+
+#: slop-stopper.php:207
+msgid "transformative journey"
+msgstr ""
+
+#: slop-stopper.php:208
+msgid "innovative solutions"
+msgstr ""
+
+#: slop-stopper.php:209
+msgid "delve"
+msgstr ""
+
+#: slop-stopper.php:210
+msgid "tapestry"
+msgstr ""
+
+#: slop-stopper.php:211
+msgid "embark"
+msgstr ""
+
+#: slop-stopper.php:225
+msgid "SLOP"
+msgstr ""
+
+#: slop-stopper.php:247
+msgid "Flag content as AI-generated"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/robertdevore/slop-stopper/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Checks content submitted by non-admin users for AI-generated phrases and "
+"flags posts for admin review."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Robert DeVore"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://robertdevore.com/"
+msgstr ""
