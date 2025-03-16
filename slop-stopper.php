@@ -98,6 +98,12 @@ class Slop_Stopper {
         <div class="wrap">
             <h1>
                 <strong><?php esc_html_e( 'Slop Stopper', 'slop-stopper' ); ?></strong> - <?php esc_html_e( 'Flagged Posts', 'slop-stopper' ); ?>
+                <a id="slop-stopper-support-btn" href="https://robertdevore.com/contact/" target="_blank" class="button button-alt" style="margin-left: 10px;">
+                    <span class="dashicons dashicons-format-chat" style="vertical-align: middle;"></span> <?php esc_html_e( 'Support', 'slop-stopper' ); ?>
+                </a>
+                <a id="slop-stopper-docs-btn" href="https://robertdevore.com/articles/slop-stopper/" target="_blank" class="button button-alt" style="margin-left: 5px;">
+                    <span class="dashicons dashicons-media-document" style="vertical-align: middle;"></span> <?php esc_html_e( 'Documentation', 'slop-stopper' ) ?>
+                </a>
             </h1>
             <?php
             $args = [
@@ -146,6 +152,18 @@ class Slop_Stopper {
                 echo '<p>' . esc_html__( 'No flagged posts found.', 'slop-stopper' ) . '</p>';
             }
             ?>
+            <style type="text/css">
+                #slop-stopper-support-btn,
+                #slop-stopper-docs-btn {
+                    line-height: 22px;
+                    float: right;
+                    margin-left: 12px;
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                    gap: 6;
+                }
+            </style>
         </div>
         <?php
     }
