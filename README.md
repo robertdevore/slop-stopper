@@ -62,12 +62,12 @@ This makes sure that user-generated content meets quality standards and prevents
 ### Customizing Flagged Phrases
 
 To add or remove phrases from the flagged list, use the following filter in your theme's `functions.php` file or a custom plugin:
-    ```php
-    add_filter( 'slop_stopper_phrases', function( $phrases ) {
-        $phrases[] = 'next-gen synergy'; // Add a custom phrase
-        return $phrases;
-    } );
-    ```
+```php
+add_filter( 'slop_stopper_phrases', function( $phrases ) {
+    $phrases[] = 'next-gen synergy'; // Add a custom phrase
+    return $phrases;
+} );
+```
 
 ## Updating the Plugin
 
